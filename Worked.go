@@ -32,7 +32,7 @@ type Worked struct {
 
 // GetWorkeds returns all employees
 //
-func (service *Service) GetWorkeds(year int64, month int64) (*[]Worked, *errortools.Error) {
+func (service *Service) GetWorkeds(year int, month int) (*[]Worked, *errortools.Error) {
 	page := 0
 
 	workeds := []Worked{}
