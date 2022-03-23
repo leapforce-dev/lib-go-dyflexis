@@ -26,8 +26,8 @@ type Worked struct {
 	Kilometers     *go_types.Float64String `json:"kilometers"`
 	StartDate      d_types.DateTimeString  `json:"start_date"`
 	EndDate        d_types.DateTimeString  `json:"end_date"`
-	Pauze          go_types.Int64String    `json:"pauze"`
-	Duration       go_types.Int64String    `json:"duration"`
+	Pauze          go_types.Float64String  `json:"pauze"`
+	Duration       go_types.Float64String  `json:"duration"`
 }
 
 // GetWorkeds returns all employees
