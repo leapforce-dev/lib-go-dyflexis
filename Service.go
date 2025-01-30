@@ -15,7 +15,6 @@ const (
 	apiBasePathV2 string = "api2"
 )
 
-// type
 type Service struct {
 	clientName  string
 	authToken   string
