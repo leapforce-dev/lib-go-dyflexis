@@ -33,7 +33,7 @@ func (d *DateString) UnmarshalJSON(b []byte) error {
 		return returnError()
 	}
 
-	if s == "" || s == "0000-00-00" {
+	if s == "" || s == "0000-00-00" || s == "9999-12-31" {
 		d = nil
 		return nil
 	}
